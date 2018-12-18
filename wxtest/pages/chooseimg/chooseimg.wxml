@@ -1,0 +1,4 @@
+<!--pages/chooseimg/chooseimg.wxml-->
+<!-- 选择图片 -->
+<button bindtap="selectImg">选择图片</button>
+<image src="{{imageUrl}}"></image>

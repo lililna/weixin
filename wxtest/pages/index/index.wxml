@@ -1,0 +1,2 @@
+<button bindtap="goHome">主页面</button>
+<button bindtap="selectImg">小程序API</button>

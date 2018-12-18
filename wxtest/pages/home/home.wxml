@@ -1,0 +1,54 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="selection">
+    <swiper
+    indicator-dots="true"
+    autoplay="true"
+    interval="3000"
+    duration="1000"
+    >
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" style='width:100%;' />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+ <!---->
+  <view class="selection">
+    <view class="header">
+      <text>精品推荐</text>
+      <text class="text-all">全部推荐</text>
+    </view>
+    <view class="content">
+        <view class="content-item">
+          <image src="../img/1.jpg"></image>
+          <view class="content-item-text">底部说明文字</view>
+        </view>
+        <view class="content-item">
+          2
+        </view>
+        <view class="content-item">
+          3
+        </view>
+        <view class="content-item">
+          4
+        </view>
+      </view>
+  </view>
+  <!--  -->
+  <view class="selection">
+     <view class="header">
+      <text>热门评测</text>
+      <text class="text-all">全部评测</text>
+    </view>
+    <view class="list-item">
+      <view class="list-item-image">
+        <image src="../img/2.jpg"></image>
+        <image src="../img/3.jpg" class="avatar"></image>
+      </view>
+      <view class="list-item-text">
+      </view>
+    </view>
+  </view>
+</view>
