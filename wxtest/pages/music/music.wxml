@@ -1,0 +1,5 @@
+<!--pages/music/music.wxml-->
+<view class="container">
+  <button type="primary" bindtap="stopMusicClick">暂停</button>
+  <button type="primary" bindtap="getMusicClick">获取音频信息</button>
+</view>

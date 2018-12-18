@@ -1,0 +1,4 @@
+/* pages/music/music.wxss */
+.container button {
+   margin: 5px;
+}

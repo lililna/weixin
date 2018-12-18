@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/chooseimg/chooseimg",
     "pages/home/home",
-    "pages/websocket/websocket"
+    "pages/websocket/websocket",
+    "pages/music/music"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -28,5 +28,11 @@
      wx.navigateTo({
        url: '../websocket/websocket'
      })
-   }
+   },
+  //  音乐
+  goMusic: function() {
+    wx.navigateTo({
+      url: '../music/music',
+    })
+  }
  })
