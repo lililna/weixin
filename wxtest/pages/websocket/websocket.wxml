@@ -1,0 +1,6 @@
+<!--pages/websocket/websocket.wxml-->
+<view class="container">
+  <button type="primary" bindtap="openBtnClick">开启连接</button>
+  <button type="primary" bindtap="sendBtnClick">发送消息</button>
+  <button type="primary" bindtap="closeBtnClick">关闭连接</button>
+</view>

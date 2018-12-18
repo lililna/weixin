@@ -22,5 +22,11 @@
      wx.navigateTo({
        url: '../chooseimg/chooseimg'
      })
+   },
+   // WebSocket
+   goWebSocket: function() {
+     wx.navigateTo({
+       url: '../websocket/websocket'
+     })
    }
  })

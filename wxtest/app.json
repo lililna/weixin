@@ -3,12 +3,13 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/chooseimg/chooseimg",
-    "pages/home/home"
+    "pages/home/home",
+    "pages/websocket/websocket"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "首页",
+    "navigationBarTitleText": "导航",
     "navigationBarTextStyle": "black"
   }
 }
