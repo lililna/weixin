@@ -1,5 +1,6 @@
 <view class="container">
   <button bindtap="goHome">主页面</button>
+  <button bindtap="goLogs">日志</button>
   <button bindtap="selectImg">选择图片</button>
   <button bindtap="goWebSocket">WebSocket</button>
   <button bindtap="goMusic">音乐</button>

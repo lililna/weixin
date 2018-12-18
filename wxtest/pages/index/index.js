@@ -17,6 +17,12 @@
        url: '../home/home'
      })
    },
+  //  进入日志
+   goLogs: function() {
+     wx.navigateTo({
+       url: '../logs/logs',
+     })
+   },
    // 选择图片
    selectImg: function() {
      wx.navigateTo({
