@@ -1,0 +1,5 @@
+<!--pages/map/map.wxml-->
+<view class="container">
+  <button type="primary" bindtap="getMapClick">获取当前位置</button>
+  <button type="primary" bindtap="checkMapClick">选择位置</button>
+</view>

@@ -40,5 +40,11 @@
     wx.navigateTo({
       url: '../music/music',
     })
-  }
+  },
+  // 地图
+   goMap: function() {
+     wx.navigateTo({
+       url: '../map/map',
+     })
+   }
  })

@@ -4,4 +4,5 @@
   <button bindtap="selectImg">选择图片</button>
   <button bindtap="goWebSocket">WebSocket</button>
   <button bindtap="goMusic">音乐</button>
+  <button bindtap="goMap">地图</button>
 </view>
